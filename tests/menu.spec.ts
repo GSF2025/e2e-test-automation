@@ -17,6 +17,6 @@ test.describe('Nav Menu Options', () => {
 
     await page.getByRole('link', { name: 'Our Services' }).click();
     await expect(page.getByRole('link', {name: 'Market Place',})).toBeVisible();
-    await expect(page.getByRole('link', {name: 'Master Classes',})).toBeVisible();
+    await expect(page.getByRole('link', {name: 'Masterclasses',})).toBeVisible();
   });
 });
