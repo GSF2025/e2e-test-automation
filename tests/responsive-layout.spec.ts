@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 
 test.describe('Responsive Layout', () => {
   test.beforeEach(async ({ page }) => {
-    await page.goto('https://website-04db7b0f.npd.wyr.mybluehost.me/staging/1386/');
+    await page.goto('https://website-04db7b0f.npd.wyr.mybluehost.me/staging/1386/666');
     await expect(page).toHaveTitle(/Hamba/);
   });
 
