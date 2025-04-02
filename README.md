@@ -1,8 +1,8 @@
-#Playwright E2E Testing Guide
+# Playwright E2E Testing
 
 We are going to start writing automated end-to-end (E2E) tests in our staging site.
 
-##What is Playwright?
+## What is Playwright?
 
 Playwright is an open-source framework by Microsoft for end-to-end testing of web applications. You can simulate user interactions such as navigating between pages, filling out forms, etc.
 
@@ -10,9 +10,7 @@ Playwright is an open-source framework by Microsoft for end-to-end testing of we
 
 2. Powerful features: it includes tools for debugging, taking screenshots, recording videos, and even simulating different devices or network conditions
 
-##Instructions
-
-###SETUP
+## Setup Instructions
 
 1. Download Visual Studio Code if you don't already have one: https://code.visualstudio.com/
 
@@ -28,7 +26,10 @@ Playwright is an open-source framework by Microsoft for end-to-end testing of we
 
 7. On your terminal or command prompt run the following commands
 
-    git clone https://github.com/GSF2025/e2e-test-automation
-    cd e2e-test-automation
-    npm install
+    - `git clone https://github.com/GSF2025/e2e-test-automation`
+    - `cd e2e-test-automation`
+    - `npm install`
+
+8. Add the Extension: 'Playwright Test for VSCode' by Microsoft
+9. On your terminal or command prompt run the following command: npx playwright install
  
